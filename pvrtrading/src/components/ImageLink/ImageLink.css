@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+.image-link {
+  position: relative;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  object-fit: scale-down;
+  display: flex;
+  align-items: center;
+  z-index: -1;
+}
+
+.image-link-content {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.image-link.fade-in {
+  opacity: 1;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%; /* Adjust the text position vertically */
+  left: 50%; /* Adjust the text position horizontally */
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  font-family: 'Lora', serif;
+}
+
+.text-overlay.fade-in {
+  opacity: 1;
+}
