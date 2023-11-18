@@ -1,4 +1,4 @@
-# Project Name
+# PVR Trading Services Website
 
 ## Description
 This repository contains the codebase for PVR Trading Services, a website developed for MTP Solutions' customer. It aims to provide necessary information to the users about the services provided by the PVR center .
