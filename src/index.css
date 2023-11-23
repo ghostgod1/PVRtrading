@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Sawarabi+Mincho&family=Ubuntu:wght@300&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Open+Sans&family=Sawarabi+Mincho&family=Tinos&family=Ubuntu:wght@300&family=Vina+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tinos', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
