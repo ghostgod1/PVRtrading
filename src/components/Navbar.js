@@ -1,5 +1,5 @@
-import { Component } from "react";
-import { Link } from "react";
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { MenuItems } from "../MenuItems.js";
 import logo from "../images/logo.jpeg";
 import "./NavbarStyles.css";
