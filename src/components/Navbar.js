@@ -12,15 +12,16 @@ class Navbar extends Component {
   render(){
   return (
       <nav className="navbarItems">
-        
             <h1 className="navbar-logo">
-                <img className="nav-img" src={logo}/>
-                PVR 
+              <img className="nav-img" src={logo}/>
+                PVR
             </h1>
+
             <div className="menu-icons" onClick={this.handleClick}>
               <i className={this.state.clicked ? 
                 "fas fa-times" : "fas fa-bars"}></i>
             </div>
+
             <ul className={this.state.clicked ?
                 "nav-menu active" : "nav-menu"}>
             { MenuItems.map((item,index) => {
@@ -32,6 +33,7 @@ class Navbar extends Component {
               );
             })}    
             </ul>
+            <button>WhatsApp</button>
       </nav>
         );
     }

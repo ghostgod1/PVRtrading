@@ -3,8 +3,7 @@ import InformationData from "../components/InformationData.js";
 const Information = () => {
 	return(
 		<div className="info">
-			<h1>PVR Financial Services</h1>
-			<p>Trusted advisors for a secure tomorrow</p>
+	
 			<InformationData 
 			className="first-des"
 			heading="What to Expect"
