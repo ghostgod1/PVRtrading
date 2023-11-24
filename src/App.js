@@ -21,7 +21,7 @@ export default function App() {
         <Route path="/blog" element={<Blogs />}/>
         <Route path="/about" element={<About />}/>
       </Routes>
-      <Navbar />
+    <Navbar />
     </div>
   );
 }
