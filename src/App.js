@@ -7,7 +7,6 @@ import {
   Navigate,
   Link
 } from "react-router-dom";
-
 import Home from "./routes/Home.js";
 import Courses from "./routes/Courses.js";
 import Blogs from "./routes/Blogs.js";
