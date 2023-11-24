@@ -11,7 +11,7 @@ This repository contains the codebase for PVR Trading Services, a website develo
 - [Contributing](#contributing)
 
 ## Features
-- Describe key features or functionalities of the website.
+- The main purpose of this website is to make the users aware of the services provided by the client- Financial services - in this case. They can make an enquiry or fill in the form for enrolling in a course through this website.
 
 ## Installation
 1. Clone the repository: `git clone [repository URL]`
@@ -24,8 +24,8 @@ This repository contains the codebase for PVR Trading Services, a website develo
 ## Technologies Used
 - List the programming languages, frameworks, libraries, or tools used in the project.
   - HTML, CSS, JavaScript
-  - Frameworks: (React)
-  - Libraries: (Bootstrap, jQuery)
+  - Frameworks: (ReactJs)
+  - Libraries: (Bootstrap, jQuery, MDN, FlowBite)
 
 ## Contributing
 - If you would like to make contributions, please open a push request and let the contributor reach out to you
