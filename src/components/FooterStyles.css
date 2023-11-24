@@ -1,0 +1,24 @@
+.footer{
+	padding: 4rem 6rem;
+	background: #0d2818;
+	color: white;
+}
+
+.top{
+	display: flex;
+	align-items: center;
+	text-align: start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.top i{
+	color: #fff;
+	font-size: 2rem;
+	margin-left: 1rem;
+}
+
+.top i:hover{
+	color: #3fa34d;
+}
+

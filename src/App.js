@@ -1,4 +1,5 @@
 import "./index.css";
+import Navbar from "./components/Navbar.js";
 import {
   BrowserRouter as Router,
   Routes,
@@ -6,7 +7,6 @@ import {
   Navigate,
   Link
 } from "react-router-dom";
-import Navbar from "./components/Navbar.js";
 import Home from "./routes/Home.js";
 import Courses from "./routes/Courses.js";
 import Blogs from "./routes/Blogs.js";
@@ -21,7 +21,7 @@ export default function App() {
         <Route path="/blog" element={<Blogs />}/>
         <Route path="/about" element={<About />}/>
       </Routes>
-    
+    <Navbar />
     </div>
   );
 }

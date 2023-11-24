@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Link } from "react";
+import { Link } from "react-router-dom";
 import { MenuItems } from "../MenuItems.js";
 import logo from "../images/logo.jpeg";
 import "./NavbarStyles.css";
@@ -15,7 +15,7 @@ class Navbar extends Component {
         
             <h1 className="navbar-logo">
                 <img className="nav-img" src={logo}/>
-                PVR Financial Services
+                PVR 
             </h1>
             <div className="menu-icons" onClick={this.handleClick}>
               <i className={this.state.clicked ? 
