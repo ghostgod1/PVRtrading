@@ -11,8 +11,9 @@ function Home (){
        <Hero 
        cName="hero"
        heroImg={homeImg}
-       title="Your Partner in Financial Growth"
-       text="Let's Dive In"
+       title="PVR Financial Services"
+       text="Connect with us"
+       button="Enquiry"
        />
        <Information />
        <Footer />

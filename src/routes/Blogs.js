@@ -10,7 +10,7 @@ function  Blogs(){
             cName="hero-mid"
             heroImg={blog}
             title="Blogs"
-       />
+            />
         </>
     )
 }

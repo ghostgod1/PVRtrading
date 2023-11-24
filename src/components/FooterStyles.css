@@ -1,7 +1,9 @@
 .footer{
-	padding: 4rem 6rem;
+	padding: 2rem 11rem;
 	background: #0d2818;
 	color: white;
+	font-family: "Ubuntu";
+	position: relative;
 }
 
 .top{
@@ -18,7 +20,81 @@
 	margin-left: 1rem;
 }
 
+.social{
+	padding-right: 7rem;
+}
+
 .top i:hover{
 	color: #3fa34d;
 }
+
+.bottom{
+	padding-top: 3rem;
+	text-align: start;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+.about{
+	padding-top: 1.5rem;
+	font-size: 1.2rem;
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+.bottom label{
+	font-size: 1.3rem;
+	padding: 1rem 0 0.8rem 0;
+}
+
+.sub{
+	padding-top: 2.5rem;
+	color: black;
+	padding-bottom: 2rem;
+}
+
+button{
+	width: 160px;
+	height: 40px;
+	background: black;
+	color: white;
+	border-radius: 13px;
+}
+
+button:hover{
+	color: white;
+	background: ;
+}
+
+.company{
+	padding-top: 2rem ;
+	height: 80px;
+	font-size: 1rem;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.05);
+}
+
+@media screen and (max-width: 850px){
+	.footer{
+		padding: 4rem 2rem;
+	}
+
+	.footer i{
+		margin: 1rem 1rem 0 0;
+	}
+
+	.bottom div{
+		width: 50%;
+	}
+}
+
 

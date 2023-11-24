@@ -3,7 +3,7 @@
     background-color:#fff ;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 20px;
     box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);
     width: 100%;
     height: 88px;
@@ -20,7 +20,7 @@
 }
 
 .nav-img{
-    width: 80px;
+    width: 90px;
     margin-right: 40px;
 }
 
@@ -33,10 +33,17 @@
     font-size: 22px;
 }
 
+button{
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+    background:#3fa34d;
+    cursor: pointer;
+}
+
 .nav-links{
     text-decoration: none;
     color: #0d2818;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 600;
     padding: 0.7rem 1rem;
 }
@@ -47,6 +54,7 @@
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
 }
+
 
 .menu-icons{
     display:none;
