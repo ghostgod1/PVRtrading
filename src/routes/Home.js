@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar.js";
 import Information from "../components/Information.js";
+import Test from "../components/Test.js";
 import Footer from "../components/Footer.js";
 import homeImg from "../images/f.jpeg";
 
@@ -16,6 +17,7 @@ function Home (){
        button="Enquiry"
        />
        <Information />
+       <Test />
        <Footer />
     </>
     );

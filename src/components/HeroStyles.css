@@ -19,6 +19,14 @@ img{
     object-fit: cover;
 }
 
+.image-link{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.image-link.fade-in{
+    opacity: 1;
+}
 
 .hero-text{
     position: absolute;
@@ -27,6 +35,12 @@ img{
     transform: translate(-50%, -50%);
     width: 100%;
     padding-left: 70px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.hero-text.fade-in{
+    opacity: 1;
 }
 
 .hero-text h1{
