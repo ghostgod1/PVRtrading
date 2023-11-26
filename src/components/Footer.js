@@ -1,7 +1,14 @@
 import "./FooterStyles.css";
-import React from 'react';
+import React,{ useState } from 'react';
+import ReactDOM from 'react-dom/client';
 
 const Footer = () => {
+	const [course, setCourse] = useState('0');
+
+	const handleChange = (event) => {
+		setCourse(event.target.value)
+	}
+
 	return(
 		<div className="footer">
 		<div className="top">
@@ -27,16 +34,18 @@ const Footer = () => {
       type="text"
       placeholder="name"
       />
-      <label >Email</label>
+      <label >Phone No</label>
       <input 
-      type="email"
-      placeholder="email"
-      />
-      <label >Phone No.</label>
-      <input 
-      type="text"
+      type="number"
       placeholder="number"
       />
+      <label >Course Option</label>
+      <select value={course} onChange={handleChange}>
+      	<option style={{display:'none'}} selected="selected" value=""> </option>
+      	<option value="Stock">Stock Market Overview</option>
+      	<option value="Analysis">Fundamental Analysis</option>
+      	<option value="Technical">Technical Analysis</option>
+      </select>
       <div className="sub">
       <button>Send</button>
       </div>
@@ -60,6 +69,7 @@ const Footer = () => {
 
 	);
 }
+
 
 export default Footer;
 

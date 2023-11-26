@@ -12,8 +12,10 @@ class Navbar extends Component {
   render(){
   return (
       <nav className="navbarItems">
-            <h1 className="navbar-logo">
+          <div>
               <img className="nav-img" src={logo}/>
+          </div>
+            <h1 className="navbar-logo">
                 PVR
             </h1>
 
@@ -33,7 +35,9 @@ class Navbar extends Component {
               );
             })}    
             </ul>
-            <button>WhatsApp</button>
+          <div className="what">
+          <i className="fa-brands fa-whatsapp"></i>
+          </div>
       </nav>
         );
     }

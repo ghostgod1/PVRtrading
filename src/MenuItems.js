@@ -18,5 +18,10 @@ export const MenuItems = [
         title : "About",
         url : "/about",
         cName : "nav-links"
+    },
+    {
+        title : "Contact Us",
+        url : "/contact",
+        cName : "nav-links"
     }
 ];
